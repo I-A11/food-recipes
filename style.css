@@ -1,0 +1,68 @@
+/* Google Font8*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+html {
+  font-family: "Nunito";
+  font-size: 12px;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: rgb(26, 26, 27);
+}
+.container {
+  width: 100%;
+  height: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.brand {
+  text-align: center;
+  font-size: 3rem;
+  color: #87f5d0;
+  margin-bottom: 2rem;
+}
+form {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #87f5d0;
+  border-radius: 10px;
+}
+form input {
+  width: 90%;
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.fa-search {
+  width: 8%;
+  color: #706767;
+}
+
+.search-result {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-gap: 25px;
+  grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+}
