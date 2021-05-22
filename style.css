@@ -122,8 +122,11 @@ form input {
   margin-top: 10px;
   text-transform: capitalize;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .search-result {
     grid-gap: 10px;
+  }
+  .form input {
+    width: 80%;
   }
 }
