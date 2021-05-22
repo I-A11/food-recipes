@@ -56,8 +56,17 @@ form input {
 }
 .fa-search {
   width: 8%;
-  color: #706767;
+  color: #1a1616;
   font-size: 1.2rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: #87f5d0;
+  width: 30px;
+  text-align: center;
+  padding-right: 12px;
+  border: transparent;
 }
 
 .search-result {
