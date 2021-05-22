@@ -53,6 +53,7 @@ form input {
   outline: none;
   font-size: 1.5rem;
   display: inline-block;
+  font-weight: 600;
 }
 .fa-search {
   width: 8%;
